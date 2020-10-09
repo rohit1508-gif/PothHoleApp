@@ -21,9 +21,8 @@ router.get('/holes',auth,async(req,res)=>{
 })
 router.delete('/holes/:id',auth,async(req,res)=>{
     const _id=req.params.id
-    const district=req.user.district
     try{
-       const hole = await Hole.find({_id,district})
+       const hole = await Hole.findById(_id)
        await hole.remove()
        res.send(hole)
     }
