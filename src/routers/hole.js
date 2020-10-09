@@ -12,7 +12,7 @@ router.post('/holes',async(req,res)=>{
     console.log(error)}
 })
 router.get('/holes',auth,async(req,res)=>{
-    district=req.user.district
+    const district=req.user.district
     try{
        const hole = await Hole.find({district})
        res.send(hole)
@@ -20,8 +20,8 @@ router.get('/holes',auth,async(req,res)=>{
     catch(error){res.status(500).send(error)}
 })
 router.delete('/holes/:id',auth,async(req,res)=>{
-    _id=req.params.id
-    district=req.user.district
+    const _id=req.params.id
+    const district=req.user.district
     try{
        const hole = await Hole.find({_id,district})
        await hole.remove()
