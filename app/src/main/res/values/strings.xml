@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PothHole</string>
+    <string-array name="districts">
+        <item>Select District</item>
+        <item>Anugul</item>
+        <item>Bargarh</item>
+        <item>Bhadrak</item>
+        <item>Balasore</item>
+        <item>Balangir</item>
+        <item>Boudh</item>
+        <item>Cuttack</item>
+        <item>Deogarh</item>
+        <item>Dhenkanal</item>
+        <item>Gajapati</item>
+        <item>Ganjam</item>
+        <item>Jagatsinghpur</item>
+        <item>Jajpur</item>
+        <item>Jharsuguda</item>
+        <item>Kalahandi</item>
+        <item>Kandhamal</item>
+        <item>KendraPara</item>
+        <item>Keonjhar</item>
+        <item>Khurda</item>
+        <item>Koraput</item>
+        <item>Malkangiri</item>
+        <item>Mayurbhanj</item>
+        <item>Nuapada</item>
+        <item>Nabarangpur</item>
+        <item>Nayagarh</item>
+        <item>Puri</item>
+        <item>Rayagada</item>
+        <item>Sambalpur</item>
+        <item>Sonepur</item>
+        <item>Sundargarh</item>
+    </string-array>
+</resources>
